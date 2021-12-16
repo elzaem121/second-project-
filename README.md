@@ -1,23 +1,16 @@
-# Weather-Journal App Project
+- weather-journal app project \*
 
-This is my second project, and I hope to be successful in using the tools that I learned
+* it is my second project .
+* I modified all the project and made mistakes in many steps and fixed them.
+* I hope I succeeded in learning these tools and using them correctly
 
-## Overview
+- Objective \*
 
-I created an asynchronous web app that uses Web API and user data to dynamically update the UI.
-I wrote comments to make the code more readable.
-I used extention on the URL (&units=metric) to get the Celsius Temperature.
+This project was about working with web APIs and asynchronous code, creating a web application that uses the OpenWeatherMap API to get the weather based on the user's location, and dynamically updating the user interface.
 
-// How to use //
+- Building \*
 
-All you should do is write the ZIP code of the city
-
-You can write your feelings if you want.
-
-The application will show you.
-
-the name of the city.
-the temperature.
-the date.
-description of weather.
-your feelings.
+* I made many modifying in HTML and CSS.
+* I create a async function to fetch data and store this in my local server
+* API approval from OpenWeatherMap.
+* I set up function to update UI dynamically.

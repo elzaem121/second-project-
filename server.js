@@ -52,6 +52,9 @@ const postData = function (req, res) {
 // GET Route
 app.post("/add", postData);
 
+
+
+
 // const postData = function (req, res) {
 //   projectData = {
 //     temp: req.body.temp,
@@ -61,3 +64,4 @@ app.post("/add", postData);
 //   console.log(projectData);
 //   res.status(200).send(projectData);
 // };
+
