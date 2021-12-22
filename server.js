@@ -40,28 +40,18 @@ const getAll = function (req, res) {
 };
 
 // GET Route
-app.get("/all", getAll);
+app.get("/setData", getAll);
 
-// Callback function to complete POST '/add'
+
 const postData = function (req, res) {
-  projectData = req.body;
+  projectData = {
+    temperature: req.body.temperature,
+    date: req.body.date,
+    content: req.body.content,
+  };
   console.log(projectData);
-  res.send(projectData);
+  res.status(200).send(projectData);
 };
 
 // GET Route
-app.post("/add", postData);
-
-
-
-
-// const postData = function (req, res) {
-//   projectData = {
-//     temp: req.body.temp,
-//     date: req.body.date,
-//     content: req.body.content,
-//   };
-//   console.log(projectData);
-//   res.status(200).send(projectData);
-// };
-
+app.post("/setData", postData);

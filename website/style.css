@@ -67,9 +67,9 @@ body {
 }
 #content {
   grid-column: 1 / -1;
-  font-size: 25px;
+  font-size: 28px;
 }
-#temp,
+#temperature,
 #date {
   font-size: 4vw;
 }
